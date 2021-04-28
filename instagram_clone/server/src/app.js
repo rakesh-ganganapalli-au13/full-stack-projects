@@ -13,7 +13,8 @@ app.use(express.urlencoded({extended:true}))
 
 
 //requiring and using routes
-app.use(require('./routes/auth'))
+app.use(require('./routes/auth'))  //auth routes
+app.use(require('./routes/post'))  //post route
 
 
 app.listen(port,console.log(`server running at port ${port}`))

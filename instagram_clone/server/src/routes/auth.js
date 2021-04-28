@@ -5,10 +5,19 @@ require('dotenv').config()
 const isLogin = require('../middlewers/isLogin')
 const users = require('../models/users')
 
+/*
+path  : /
+Method : get
+ */
 
 router.get('/',(req,res)=>{
     res.send("HEllo router")
 })
+
+/*
+path  : /signup
+Method : post
+ */
 
 router.post('/signup',async(req,res)=>{
     console.log(req.body)
@@ -41,6 +50,11 @@ router.post('/signup',async(req,res)=>{
 })
 
 
+/*
+path  : /signin
+Method : post
+ */
+
 router.post('/signin',async(req,res)=>{
     
     const {email,password} = req.body
@@ -70,6 +84,9 @@ router.post('/signin',async(req,res)=>{
     res.json({token:token})
 
 })
+
+
+
 
 // router.get('/protected',isLogin,(req,res)=>{
 //     // console.log(req.user)
