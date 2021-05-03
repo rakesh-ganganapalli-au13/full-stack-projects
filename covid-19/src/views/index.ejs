@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid information</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 220px;
+            text-align: left;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="POST">
+        <h1>covid information</h1>
+
+        <h3><a href="/hospatals">ClickMe</a> To get hospatals information state wise</h3>
+
+        <div>
+            <select id="select" name="country">
+                    <option>Select Country</option>
+                    <option>India</option>
+                    <option>Chaina</option>
+                    <option>U.S.A</option>
+                    <option>Brazil</option>
+            </select>
+
+            <button type="submit">Get data</button>
+        </div>
+       <h3>select country and press button to get covid information</h3>
+        <% if(selected_country) {%>
+            <div>
+               <div><label>Country name:</label><%=COUNTRY_NAME%></div>
+               <div><label>Totel conformed:</label><%=TOTEL_CASES%></div>
+               <div><label>Totel recovered:</label><%=TOTEL_RECOVERED%></div>
+               <div><label>Totel deaths:</label><%=TOTEL_DEATHS%></div>
+               <div><label>Totel vaccine available:</label><%=TOTEL_VACCINE_AVAILABLE%></div>
+               <div><label>Totel beds available:</label><%=TOTEL_BEDS_AVAILABLE%></div>
+               <div><label>Totel oxigen available:</label><%=TOTEL_OXIGEN_AVAILABLE%></div>
+               <div><label>Today tests done:</label><%=TODAY_TESTS_DONE%></div>
+               <div><label>Today conformed:</label><%=TODAY_CASES%></div>
+               <div><label>Today recovered:</label><%=TODAT_RECOVERIES%></div>
+               <div><label>Today deaths:</label><%=TODAT_DEATHS%></div>
+            </div>
+        <%}%>
+        
+
+    </form>
+
+
+
+</body>
+</html>

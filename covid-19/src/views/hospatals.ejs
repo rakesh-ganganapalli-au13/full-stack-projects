@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospatals</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+        label{
+            display: inline-block;
+            width: 220px;
+            text-align: left;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="/hospatals" method="POST">
+            
+    
+            <div class="center">
+                <h1>Governement covid hospatals and beds information</h1>
+    
+            <h3><a href="/">ClickMe</a> To get covid information country wise</h3>
+                <select id="select" name="state">
+                        <option selected>Andhra Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Delhi</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jammu & Kashmir</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Maharastra</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Meghalaya</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Puducherry</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttarakhand</option>
+                        <option>Uttar Pradesh</option>
+                        <option>West Bengal</option>
+                       
+                </select>
+    
+                <button type="submit">Get data</button>
+                <h3>select state and press button to get hospatals information</h3>
+            </div>
+            
+
+            <% if(selected_state) {%>
+                <%stateHospatals.forEach(element=>{%>
+                    <div>
+                        <label>Name:</label><%=element.name%> <br>
+                        <label>City:</label><%=element.city%> <br>
+                        <label>AdmissionCapasity:</label><%=element.admissionCapacity%><br>
+                        <label>HospatalBeds:</label><%=element.hospitalBeds%>
+                    </div>
+                    <hr>
+
+                <%})%>
+                
+            
+            <%}%>
+
+           
+
+        </form>
+    </div>
+</body>
+</html>

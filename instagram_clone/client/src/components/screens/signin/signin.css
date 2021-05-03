@@ -1,0 +1,13 @@
+.card{
+    padding:20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(11, 54, 243) !important;
+    box-shadow: 0 1px 0 0 rgb(5, 9, 233) !important;
+  }
