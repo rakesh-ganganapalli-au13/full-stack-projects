@@ -1,0 +1,31 @@
+form{
+    color:white;
+    height: 500px;
+    margin: 0 auto; 
+    width:250px;
+    
+    
+}
+.submit{
+    margin-left: 60px;
+    color: black;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+    
+body{
+    background-color: rgb(80, 138, 177);
+}
+div{
+    padding: 10px;
+}
+input{
+    margin-top: 10px;
+}
+a{
+    color: rgb(230, 197, 15);
+}
+
+
