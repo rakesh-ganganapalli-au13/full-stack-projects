@@ -1,0 +1,22 @@
+.icon{
+    /* margin-top:19px; */
+    width: 120px;
+    height: 80px;
+    border: 3px solid #dbd9d9;
+    background:linear-gradient(to top left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 0.8px), rgb(178 167 167) 50%, rgba(0,0,0,0) calc(50% + 0.8px), rgba(0,0,0,0) 100%), linear-gradient(to top right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) calc(50% - 0.8px), rgb(172 167 167) 50%, rgba(0,0,0,0) calc(50% + 0.8px), rgba(0,0,0,0) 100%);
+    margin : 19px 10px 0px 0px
+}
+
+.bookFlight{
+    width: 126px;
+    margin-top: 10px;
+}
+
+.MuiPaper-root{
+    margin-right: 10px;
+}
+
+.css-46bh2p-MuiCardContent-root:last-child {
+    padding-bottom: 24px;
+    margin-left: 13px;
+}

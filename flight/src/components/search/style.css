@@ -1,0 +1,44 @@
+.MuiInputBase-input{
+    height:0 !important;
+    padding:"2px"!important;
+    margin:"5px" !important;
+}
+
+.MuiOutlinedInput-root{
+    margin:8px;
+}
+
+.MuiBox-root{
+    border:2px solid gray !important;
+}
+
+
+.button1{
+    font-size: 12px;
+    color: black;
+    border-top: 1.5px solid gray;
+    border-right: 1.5px solid gray;
+    border-bottom: none;
+    border-left: 1.5px solid gray;
+    border-image: initial;
+    width: 77px;
+    height: 22px;
+    margin-bottom: 0px;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.button2{
+    font-size: 12px;
+    color: black;
+    border-top: 1.5px solid gray;
+    border-right: 1.5px solid gray;
+    border-bottom: none;
+    border-left: 1.5px solid gray;
+    border-image: initial;
+    width: 77px;
+    height: 22px;
+    margin-bottom: 0px;
+    border-radius: 9px 9px 0px 0px;
+    margin-left: -9px;
+    
+}

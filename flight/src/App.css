@@ -1,0 +1,35 @@
+
+
+.dashboard{
+  display: flex;
+flex-direction: row;
+margin-left: 135px;
+margin-right: 137px;
+}
+
+.heading{
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  margin-top: -26px;
+  height: 45px;
+  width: 520px;
+  margin-left: -1px;
+
+}
+
+.box2{
+  margin-top: 27px;
+  padding-top: 25px;
+  margin-top: 0px;
+  border-left: "none"!important;
+}
+
+.mainHead{
+  margin: 0px;
+  border: 1px solid black;
+  border-bottom: none;
+  margin-left: 135px;
+  height: 43px;
+
+}

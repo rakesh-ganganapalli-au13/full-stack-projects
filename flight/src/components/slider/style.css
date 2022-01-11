@@ -1,0 +1,27 @@
+.css-eg0mwd-MuiSlider-thumb:before {
+    background: url(../../up-arrow.svg) no-repeat;
+}
+.number-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li2 {
+    margin-left: 250px;
+}
+/* .number-list li {
+    display: inline-block;
+    position: relative;
+} */
+/* .number-list li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin:10px;
+    width: 1px;
+    height: 20px;
+    background-color: #000;
+} */
