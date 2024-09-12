@@ -54,19 +54,18 @@ function ProjectTimiline() {
                           <strong>Technologies used:</strong>
                           <ul>
                             <li>
-                              <span className="p-2">ReactJS</span>
-                            </li>
-                            <li>
                               <span className="p-2">JavaScript</span>
                             </li>
                             <li>
                               <span className="p-2">HTML</span>
                             </li>
                             <li>
-                              <span className="p-2">
-                                CSS,Bootstrap,React-bootstrap
-                              </span>
+                              <span className="p-2">CSS,Bootstrap</span>
                             </li>
+                            <li>
+                              <span className="p-2">ReactJS</span>
+                            </li>
+
                             <li>
                               <span className="p-2">Liferay</span>
                             </li>
@@ -107,7 +106,7 @@ function ProjectTimiline() {
                         eventKey="0"
                         className="p-2 text-center accordian-main"
                       >
-                        PROJECT DETAILS
+                        PROJECT DETAILS ⬇️
                       </Accordion.Toggle>
 
                       <Accordion.Collapse eventKey="0" className="text-left">
@@ -131,6 +130,12 @@ function ProjectTimiline() {
                               <span className="p-2">JavaScript</span>
                             </li>
                             <li>
+                              <span className="p-2">HTML</span>
+                            </li>
+                            <li>
+                              <span className="p-2">CSS&Sass</span>
+                            </li>
+                            <li>
                               <span className="p-2">ReactJS</span>
                             </li>
                             <li>
@@ -138,15 +143,6 @@ function ProjectTimiline() {
                             </li>
                             <li>
                               <span className="p-2">MongoDB</span>
-                            </li>
-                            <li>
-                              <span className="p-2">HTML</span>
-                            </li>
-                            <li>
-                              <span className="p-2">CSS&Sass</span>
-                            </li>
-                            <li>
-                              <span className="p-2">MaterialUI</span>
                             </li>
                           </ul>
                         </Card.Body>

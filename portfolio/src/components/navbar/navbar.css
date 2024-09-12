@@ -22,4 +22,8 @@
       transform: translateY(0rem);
     }
   }
+
+  .cursor-pointer{
+    cursor: pointer !important;
+  }
   

@@ -19,7 +19,20 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 
 export const skills = {
-  frontend: [
+  techSkills: [
+    {
+      link: "https://www.javascript.com/",
+      imgAltText: "JavaScript",
+      imgSrc: L_JAVASCRIPT,
+      skillName: "JavaScript",
+    },
+
+    {
+      link: "https://www.java.com",
+      imgAltText: "Java",
+      imgSrc: "https://www.svgrepo.com/show/303388/java-4-logo.svg",
+      skillName: "Java",
+    },
     {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
@@ -45,53 +58,6 @@ export const skills = {
       skillName: "CSS3",
     },
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
-    {
-      link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: L_BOOTSTRAP,
-      skillName: "Bootstrap",
-    },
-    
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
-    {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
-    
-  ],
-
-  backend: [
-    {
       link: "https://nodejs.org/en/",
       imgAltText: "Node.js",
       imgSrc: L_NODE_JS,
@@ -103,37 +69,6 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-  ],
-  hostingPlatforms: [
-    {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc: L_HEROKU,
-      skillName: "Heroku",
-    },
-    {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
-    },
-  ],
-  programmingLanguages: [
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    }
-  ],
-  databases: [
     {
       link: "https://www.postgresql.org/",
       imgAltText: "PostgreSQL",
@@ -146,14 +81,6 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
-    },
-  ],
-  versionControl: [
-    {
-      link: "https://git-scm.com/",
-      imgAltText: "GIT",
-      imgSrc: L_GIT,
-      skillName: "GIT",
     },
   ],
 };

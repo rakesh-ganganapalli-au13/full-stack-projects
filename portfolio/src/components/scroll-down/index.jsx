@@ -20,11 +20,7 @@ const MyScroll = styled.div`
 `;
 
 const ScrollDown = () => {
-
-  const handler = ()=>(
-    window.scrollTo(0,550)
-    ) // horizontal and vertical scroll increments}
-
+  const handler = () => window.scrollTo(0, 550); // horizontal and vertical scroll increments}
 
   return (
     <MyScroll>

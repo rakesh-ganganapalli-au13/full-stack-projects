@@ -14,7 +14,7 @@ const MyTitleMessage = styled.h1`
     font-size: 1.15em;
   }
   div {
-    color: ${props =>(props.theme.textColor)};
+    color: ${(props) => props.theme.textColor};
 
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 30;
@@ -45,10 +45,10 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Full Stack Developer","Freelancer"],
+              strings: ["Frontend Developer", "Backend Developer"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 50,
             }}
           />
         </div>

@@ -22,3 +22,25 @@
     color: #ffffff;
   }
   
+.tech-skills{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+
+@media (min-width: 1025px) {
+  .tech-skills-skill {
+      width: 46% ;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tech-skills-skill{
+    width: 54% ;
+  }
+}
+
+/* .tech-skills-skill{
+  width: 44%;
+} */

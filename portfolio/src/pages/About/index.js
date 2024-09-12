@@ -6,6 +6,8 @@ import Col from "react-bootstrap/Col";
 import Profile from "../../assets/img/profile/me2.jpg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
+// import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap CSS is included
+
 import "./style.css";
 const About = () => {
   return (
@@ -19,7 +21,7 @@ const About = () => {
                 <Image
                   className="profile justify-content-end"
                   alt="profile"
-                  src={Profile}
+                  src="https://st4.depositphotos.com/1643295/30799/i/450/depositphotos_307997018-stock-photo-smart-teenage-boy-glasses-checking.jpg"
                   thumbnail
                   fluid
                 />
@@ -33,8 +35,8 @@ const About = () => {
                 am a Full Stack Web Developer with React.js, Redux, Express.js,
                 Node.js, and MongoDB as my tech stack.
                 <br />
-                In 2020, I successfully completed my Engineering with
-                specialization in 'Electronics and Communications'.
+                Currently persuing Masters in Computer Science with
+                specialization in 'Cyber Security'.
                 <br />
                 Working with the clients, my goal is always driven towards
                 providing amazing experience with the best level of quality and
@@ -46,20 +48,16 @@ const About = () => {
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
-                    <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
-                      </Button>
-                    </a>
-                  </div>
-
-                  {/* <div>
-                    <a href="https://drive.google.com/file/d/1AQ5ca-gkyV7_sGtX0kf90tpEhgxgfvc1/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://drive.google.com/file/d/1CGy5Mfjoca_NOJHVufijpgWaOBV9jJko/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
                     </a>
-                  </div> */}
+                  </div>
 
                   <div>
                     <a
@@ -81,6 +79,13 @@ const About = () => {
                     >
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
+                      </Button>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="mailto:rakeshganganapalli7@gmail.com">
+                      <Button className="m-2" variant="outline-primary">
+                        Let's talk
                       </Button>
                     </a>
                   </div>
