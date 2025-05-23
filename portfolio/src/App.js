@@ -31,7 +31,7 @@ function App() {
 
       <Skills />
       <Experience />
-      <ProjectTimiline />
+      {/* <ProjectTimiline /> */}
       <Contact />
       <Footer />
     </div>

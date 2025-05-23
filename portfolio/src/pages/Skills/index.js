@@ -13,7 +13,7 @@ import "./styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+      <h1 className="text-center font-details-b pb-4">Technical Skills</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around m-auto">
           <Col md={6}>
@@ -31,17 +31,17 @@ const Skills = () => {
                     <div className="m-2 tech-skills-skill">
                       <span className="p-2" key={index}>
                         <a
-                          className="text-dark text-decoration-none"
+                          className="text-dark text-decoration-none image-style m-1 w-2 p-2"
                           href={skill.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <Image
+                          {/* <Image
                             src={skill.imgSrc}
                             alt={skill.imgAltText}
                             rounded
                             className="image-style m-1 w-2 p-2"
-                          ></Image>{" "}
+                          ></Image>{" "} */}
                           {skill.skillName}
                         </a>
                       </span>

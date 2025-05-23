@@ -56,7 +56,7 @@ function MyNavbar() {
               className="cursor-pointer"
               onClick={handleNavLinkClick} // Collapse navbar on link click
             >
-              Projects
+              Experience
             </Nav.Link>
             <Nav.Link
               href="#contact"

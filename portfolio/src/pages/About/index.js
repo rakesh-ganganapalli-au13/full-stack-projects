@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -31,25 +31,31 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Rakesh Ganganapalli</strong>
-                <br />A passionate programmer, born and brought up in India. I
-                am a Full Stack Web Developer with React.js, Redux, Express.js,
-                Node.js, and MongoDB as my tech stack.
+                <br />A cybersecurity enthusiast with hands-on experience
+                simulating 3.5+ years in a Security Operations Center (SOC)
+                environment. Recently completed Master's in Cybersecurity in the
+                UK, I specialize in threat detection, incident analysis, and
+                security monitoring using tools like Microsoft Sentinel,
+                Defender for Endpoint, Splunk, and CrowdStrike.
                 <br />
-                Currently persuing Masters in Computer Science with
-                specialization in 'Cyber Security'.
+                With a foundation in Full Stack Web Development (React.js,
+                Node.js, MongoDB), I bring a unique blend of development and
+                defensive security skills — allowing me to understand attacks
+                from both sides.
                 <br />
-                Working with the clients, my goal is always driven towards
-                providing amazing experience with the best level of quality and
-                service to them.
+                Driven by curiosity and a strong sense of purpose, I’m
+                passionate about detecting threats, investigating alerts, and
+                improving security posture through practical SOC workflows and
+                frameworks like MITRE ATT&CK, ISO 27001, and NIST.
                 <br />
-                I love learning about new technologies, what problems are they
-                solving and How can I use them to build better and scalable
-                products.
+                Every day, I strive to learn something new, understand attacker
+                behavior, and apply that knowledge to real-world security
+                problems — making me job-ready and impact-driven from day one.
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1CGy5Mfjoca_NOJHVufijpgWaOBV9jJko/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1pqvRdydAQ9_1H8871VMiA4I3vCj-syjo/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -59,7 +65,7 @@ const About = () => {
                     </a>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <a
                       href="https://github.com/rakesh-ganganapalli-au13"
                       target="_blank"
@@ -69,11 +75,11 @@ const About = () => {
                         GitHub
                       </Button>
                     </a>
-                  </div>
+                  </div> */}
 
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/rakesh-ganganapalli-44b12b240/"
+                      href="https://www.linkedin.com/in/rakeshganganapalli/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -83,7 +89,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="mailto:rakeshganganapalli7@gmail.com">
+                    <a href="mailto:rakeshganganapalli607@gmail.com">
                       <Button className="m-2" variant="outline-primary">
                         Let's talk
                       </Button>

@@ -21,3 +21,9 @@
     width: 3em;
   }
   
+  .company{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+  }

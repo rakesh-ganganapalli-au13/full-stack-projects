@@ -14,12 +14,14 @@ function Experience() {
       <hr />
       <div id="projects">
         <h1 className="pt-3 text-center font-details-b pb-3">Experience</h1>
+        <p className="company">Likedin Services Pvt. Ltd</p>
+
         <Timeline>
           <Events>
             <ImageEvent
-              date="07/02/2022 - 02/01/2023"
+              date="07/02/2020 - 07/08/2020"
               className="text-center"
-              text="Infogain India Pvt.Ltd"
+              text="Trainee SOC Analyst"
               src={" "}
               //   alt="React ToDo App"
             >
@@ -39,22 +41,27 @@ function Experience() {
                     <Card.Body>
                       <ul className="list-styles pt-1">
                         <li>
-                          Developed user interfaces with modern JavaScript
-                          frameworks
+                          Supported SOC analysts in monitoring alerts via
+                          Microsoft Sentinel, tagging events for severity and
+                          follow-up.
                         </li>
                         <li>
-                          Built mock designs and wireframes for landing pages
-                          for new project
+                          Performed basic triage of low-risk security events,
+                          including failed login attempts, port scans, and DNS
+                          anomalies.
                         </li>
                         <li>
-                          Created accessible , responsive and functional user
-                          interfaces to allow visitors on any device to have the
-                          same perfect user experience
+                          Assisted with log collection, correlation, and initial
+                          investigation steps using Splunk and Azure Log
+                          Analytics.
                         </li>
                         <li>
-                          Created user experience that fetched ,parsed, and
-                          formatted analytic data , and relayed it into React
-                          components.
+                          Practiced identifying IOCs and analysing MITRE ATT&CK
+                          techniques under supervision.
+                        </li>
+                        <li>
+                          Documented step-by-step incident findings in shared
+                          runbooks and contributed to RCA drafts.
                         </li>
                       </ul>
                       <hr />
@@ -76,9 +83,9 @@ function Experience() {
             </ImageEvent>
 
             <ImageEvent
-              date="24/12/2020-24/01/2022"
+              date="07/08/2020-08/08/2023"
               className="text-center"
-              text="Allit Technologies India Pvt.Ltd"
+              text="Cyber Security Analyst"
               src={" "}
               //   alt="React ToDo App"
             >
@@ -98,21 +105,36 @@ function Experience() {
                           <hr />
                           <ul className="list-styles pt-1">
                             <li>
-                              Developed user interfaces with modern JavaScript
-                              frameworks
+                              Actively monitored security alerts using Microsoft
+                              Sentinel and Splunk, detecting potential threats
+                              and providing first- line response for security
+                              incidents within a Security Operations Center
+                              (SOC) and improved response time to P1/P2
+                              incidents by 30%.
                             </li>
                             <li>
-                              Developed object oriented code in NodeJS with 100%
-                              accordance to industrial and company standards
+                              Triaged 20–30 daily alerts using Microsoft
+                              Sentinel, escalating threats and minimizing false
+                              positives.
                             </li>
                             <li>
-                              Learned and implemented multiple threading ,
-                              concurrency, design patterns and their impacts on
-                              application concurrency
+                              Conducted initial triage of security incidents,
+                              leveraging CrowdStrike and Microsoft Defender to
+                              perform detailed analysis of alerts and escalate
+                              to senior teams for further investigation.
                             </li>
                             <li>
-                              Designed and developed web applications using
-                              JavaScript frameworks ReactJS, NodeJs
+                              Supported the implementation of security controls
+                              across IT infrastructure using Zscaler, Microsoft
+                              Defender to ensure compliance with industry
+                              regulations such as NIST, ISO 27001, and SOC 2.
+                            </li>
+                            <li>
+                              Assisted in creating regular security posture
+                              reports for senior leadership using dashboards
+                              from Microsoft Sentinel, Splunk, and AlertLogic,
+                              providing insights on compliance status, incident
+                              trends, and recommendations for improvements.
                             </li>
                           </ul>
                           <hr />
